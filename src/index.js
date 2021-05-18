@@ -53,11 +53,23 @@ const SKY_COLOR = "blue";
 // console.log("goToTheMovie:", goToTheMovie);
 
 // =================== Получение данных - prompt ========================
-const age = prompt("How old are you?");
-console.log("age:", age);
+// const age = prompt("How old are you?");
+// console.log("age:", age);
 
-if (age >= 18) {
-  console.log("you can buy ticket to this movie");
-} else {
-  console.log("you CAN`T go to this movie");
+// if (age >= 18) {
+//   console.log("you can buy ticket to this movie");
+// } else {
+//   console.log("you CAN`T go to this movie");
+// }
+
+// =================== function ========================
+function sum(a, b) {
+  //   console.log("sum:", a + b);
+  return a + b;
 }
+
+const x1 = sum(1, 2);
+console.log(x1 * 2);
+// sum(14, 12);
+// sum(18, 32);
+// sum(138, 222);
