@@ -15,7 +15,7 @@ const SKY_COLOR = "blue";
 // hello();
 // hello();
 
-// camel case - формат написания
+// ================ camel case - формат написания ===================
 // const userName = "Bobby";
 // const age = 15;
 // const adult = false;
